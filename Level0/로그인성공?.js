@@ -2,7 +2,7 @@ function solution(id_pw, db) {
     // 회원들의 아이디인 id_pw[0]가 포함된 배열을 추출해서 userData에 저장
 
     // 처음에는 userId = id_pw[0] userPw = id_pw[1]로 저장해 for문을 이용하여 비교하였는데
-    // 코드가 길어지는 현상이 생긴다
+    // 코드가 길어지는 현상이 생긴다.
     
     // 그다음에는 db.flat()을 써서 db안에 배열을 벗겨낸 다음에 userId와 userPw로 저장해
     // id_pw의 값들과 비교하였는데 벗겨낼 필요 없이 아이디가 포함된 배열을 추출하면 코드가 더 간편하다.

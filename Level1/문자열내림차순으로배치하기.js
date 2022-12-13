@@ -1,7 +1,5 @@
-
 function solution(s) {
-    return s.split("").sort().reverse().join('')
+  return s.split("").sort().reverse().join("");
 }
 
-console.log(solution("DZbcdefg"))
-
+console.log(solution("DZbcdefg"));
